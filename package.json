@@ -1,21 +1,21 @@
 {
-  "name": "rollup-starter-lib",
-  "version": "1.0.0",
-  "main": "dist/how-long-till-lunch.cjs.js",
-  "module": "dist/how-long-till-lunch.esm.js",
-  "browser": "dist/how-long-till-lunch.umd.js",
+  "name": "cy-query-widget",
+  "version": "0.1.0",
+  "main": "dist/cy-query-widget.cjs.js",
+  "module": "dist/cy-query-widget.esm.js",
+  "browser": "dist/cy-query-widget.umd.js",
   "dependencies": {
     "ms": "^2.0.0"
   },
   "devDependencies": {
     "@types/ms": "^0.7.30",
-    "rollup": "^1.0.0",
-    "rollup-plugin-commonjs": "^9.2.0",
-    "rollup-plugin-node-resolve": "^4.0.0",
-    "rollup-plugin-typescript": "^1.0.0",
-    "ts-node": "^7.0.1",
-    "tslib": "^1.9.3",
-    "typescript": "^3.2.2"
+    "rollup": "^1.20.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-node": "^8.3.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.2"
   },
   "scripts": {
     "build": "rollup -c",
